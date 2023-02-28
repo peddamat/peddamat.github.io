@@ -4,7 +4,7 @@ copyright: Made with ❤️ by Karan.
 repo_name: mr-karan/notes
 repo_url: https://github.com/mr-karan/notes
 edit_uri: edit/main/docs/
-docs_dir: ./docs
+docs_dir: ./notes
 site_dir: ./site
 
 theme:
