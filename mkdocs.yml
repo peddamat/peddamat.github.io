@@ -1,8 +1,10 @@
-site_name: Karan's Programming Notes
-site_description: Short nuggets of information, code snippets or articles that I want to keep handy.
-copyright: Made with ❤️ by Karan.
-repo_name: mr-karan/notes
-repo_url: https://github.com/mr-karan/notes
+site_name: Sam Rambles
+site_url: https://samrambles.com
+site_description: Technology Writing
+site_author: Sumanth "Sam" Peddamatham
+copyright: Made with ❤️ by Sam.
+repo_name: peddamat/mkdocs-obsidian
+repo_url: https://github.com/peddamat/mkdocs-obsidian
 edit_uri: edit/main/docs/
 docs_dir: ./notes
 site_dir: ./site
@@ -12,14 +14,16 @@ theme:
   custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: green
+      scheme: white
+      primary: white
+      accent: white
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: deep orange
+      primary: black
+      accent: black
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -31,10 +35,19 @@ theme:
   include_search_page: true
   search_index_only: true
   features:
-    - navigation.instant
     - search.share
     - search.highlight
     - search.suggest
+    # Added below
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - navigation.tracking
+    - navigation.top
+    - navigation.sections
+    # - navigation.instant
+    - toc.follow
+    # - toc.integrate
   font:
     text: Noto Sans
     code: IMB Plex Mono
@@ -47,7 +60,27 @@ plugins:
         - en
   - minify:
       minify_html: true
-  - roamlinks
+  - ezlinks:
+      wikilinks: true
+      reference_links: true
+  - blogging:
+      dirs: # The directories to be included
+        - .
+      template: overrides/custom-blog.html
+
+      # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
+      categories:
+        - name: reviews
+          dirs:
+            - reviews
+
+      # GLOBAL CONFIG: configs apply to all categories
+      time_format: '%d/%m/%y %H:%M:%S'
+      meta_time_format: '%Y-%m-%d %H:%M:%S'
+      features:
+        tags:
+          index_page: tags.md
+          insert: top
 
 extra:
   social:
@@ -68,9 +101,34 @@ markdown_extensions:
   - pymdownx.magiclink
   - pymdownx.superfences
   - pymdownx.tabbed
-  - pymdownx.tasklist
+  # - pymdownx.tasklist
   - toc:
       permalink: true
+  # Added below
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  # - mdx_wikilink_plus
+  # - markdown.extensions.wikilinks
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/hide_nav.css
+
+hooks:
+  - hooks/flatten_filenames.py
+  # - hooks/only_include_published.py
