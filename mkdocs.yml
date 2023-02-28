@@ -131,4 +131,4 @@ extra_css:
 
 hooks:
   - hooks/flatten_filenames.py
-  # - hooks/only_include_published.py
+  - hooks/only_include_published.py
