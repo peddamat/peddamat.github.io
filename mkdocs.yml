@@ -9,6 +9,10 @@ edit_uri: edit/main/docs/
 docs_dir: ./notes
 site_dir: ./site
 
+nav:
+  - Home: 'index.md'
+  - Tags: 'tags.md'
+
 theme:
   name: material
   custom_dir: overrides
@@ -38,6 +42,7 @@ theme:
     - search.share
     - search.highlight
     - search.suggest
+    - header.autohide
     - content.code.copy
     - content.code.select
     - content.code.annotate
@@ -52,18 +57,31 @@ theme:
     code: IMB Plex Mono
 
 plugins:
-  # - search:
-  #     separator: '[\s\-\.]+'
-  #     prebuild_index: python
-  #     lang:
-  #       - en
+  # Resolves Obsidian [[wikilinks]]
+  - roamlinks
   - minify:
       minify_html: true
-  - roamlinks
+  - tags:
+      tags_file: tags.md
+      # Below are insiders-only settings
+      # tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+
+  - search:
+      prebuild_index: python  # Adds 100Kb to site
+      indexing: titles
+      separator: '[\s\-\.]+'
+      lang:
+        - en
   - blogging:
       dirs: # The directories to be included
         - .
       template: overrides/custom-blog.html
+      features:
+        tags:
+          index_page: tags.md
+          insert: top
 
       # INDIVIDUAL CATEGORIES: configs for {{ blog_content name }}
       # categories:
@@ -72,52 +90,47 @@ plugins:
       #       - reviews
 
       # GLOBAL CONFIG: configs apply to all categories
-      time_format: '%d/%m/%y %H:%M:%S'
-      meta_time_format: '%Y-%m-%d %H:%M:%S'
-      # features:
-      #   tags:
-      #     index_page: tags.md
-      #     insert: top
+      time_format: '%m/%d/%y %H:%M:%S'
+      meta_time_format: '%m/%d/%y %H:%M:%S'
 
 extra:
   social:
     - icon: fontawesome/brands/github-alt
-      link: https://github.com/mr-karan
+      link: https://github.com/peddamat
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/mrkaran_
+      link: https://twitter.com/peddamat
 
 markdown_extensions:
-  - admonition
-  - codehilite
-  - meta
-  - attr_list
-  - footnotes
-  - pymdownx.details
-  - pymdownx.emoji
-  - pymdownx.highlight
-  - pymdownx.magiclink
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  # - pymdownx.tasklist
+  # Table of contents
   - toc:
       permalink: true
-  # Added below
+  # Source code boxes
+  - pymdownx.superfences
+  # Syntax highlighting
+  - pymdownx.inlinehilite
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
       pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - footnotes
-  - pymdownx.arithmatex:
-      generic: true
-  - pymdownx.tasklist:
-      custom_checkbox: true
+
+  - meta
+  - admonition
+  - attr_list
   - def_list
+  - footnotes
+
   - pymdownx.critic
   - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
   - pymdownx.keys
+  - pymdownx.magiclink
   - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.tilde
 
 extra_css:
