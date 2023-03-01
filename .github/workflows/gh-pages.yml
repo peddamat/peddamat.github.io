@@ -12,6 +12,7 @@ jobs:
       - name: Checkout repository and Obsidian vault
         uses: actions/checkout@v2
         with:
+          token:  ${{ secrets.GITHUB_TOKEN }}
           submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v2
