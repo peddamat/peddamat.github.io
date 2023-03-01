@@ -20,10 +20,13 @@ log = logging.getLogger('mkdocs')
 
 def on_files(files, config):
     for f in files:
-        if f.is_documentation_page():
+        if f.is_documentation_page() or f.is_media_file():
             f.abs_dest_path = f.abs_dest_path.replace(" ", "-").lower()
+            f.abs_dest_path = f.abs_dest_path.replace("(", "").lower()
+            f.abs_dest_path = f.abs_dest_path.replace(")", "").lower()
             f.dest_path = f.dest_path.replace(" ", "-").lower()
+            f.dest_path = f.dest_path.replace("(", "").lower()
+            f.dest_path = f.dest_path.replace(")", "").lower()
             f.url = f.dest_path.replace("%20", "-").lower()
-        log.warning(f"{f.abs_dest_path}")
 
     return files

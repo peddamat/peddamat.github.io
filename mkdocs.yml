@@ -38,7 +38,6 @@ theme:
     - search.share
     - search.highlight
     - search.suggest
-    # Added below
     - content.code.copy
     - content.code.select
     - content.code.annotate
@@ -53,16 +52,14 @@ theme:
     code: IMB Plex Mono
 
 plugins:
-  - search:
-      separator: '[\s\-\.]+'
-      prebuild_index: python
-      lang:
-        - en
+  # - search:
+  #     separator: '[\s\-\.]+'
+  #     prebuild_index: python
+  #     lang:
+  #       - en
   - minify:
       minify_html: true
-  - ezlinks:
-      wikilinks: true
-      reference_links: true
+  - roamlinks
   - blogging:
       dirs: # The directories to be included
         - .
@@ -122,8 +119,6 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  # - mdx_wikilink_plus
-  # - markdown.extensions.wikilinks
 
 extra_css:
   - stylesheets/extra.css
