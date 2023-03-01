@@ -121,8 +121,8 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_css:
-  - .stylesheets/extra.css
-  - .stylesheets/hide_nav.css
+  - stylesheets/extra.css
+  - stylesheets/hide_nav.css
 
 hooks:
   - hooks/flatten_filenames.py
