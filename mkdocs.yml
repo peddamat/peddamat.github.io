@@ -55,9 +55,10 @@ theme:
     code: IMB Plex Mono
 
 plugins:
-  # Resolves Obsidian [[wikilinks]]
-  - roamlinks
+
+  - roamlinks                 # Resolves Obsidian [[wikilinks]]
   - awesome-pages
+  - git-revision-date         # Adds 'Last updated:' to pages
   - minify:
       minify_html: true
   - tags:
