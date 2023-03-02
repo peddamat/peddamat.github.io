@@ -49,7 +49,7 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+          personal_token: ${{ secrets.PULL_NOTES }}
           external_repository: peddamat/peddamat.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./site
