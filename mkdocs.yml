@@ -60,8 +60,8 @@ plugins:
   - awesome-pages
   - minify:
       minify_html: true
-  - tags:
-      tags_file: tags.md
+  #- tags:
+  #    tags_file: tags.md
       # Below are insiders-only settings
       # tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
       #   kwds:
