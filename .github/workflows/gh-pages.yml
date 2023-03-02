@@ -1,6 +1,7 @@
-name: github pages
+name: Build and Deploy Site
 
 on:
+  repository_dispatch:
   push:
     branches:
       - main
