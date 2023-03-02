@@ -7,20 +7,20 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    runs-on: latest
     steps:
       - name: Checkout mkdocs-obsidian repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Checkout notes repo into ./notes
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token:  ${{ secrets.GITHUB_TOKEN }}
-          repository: peddamat/mkdocs-obsidian        
+          repository: peddamat/notes        
           path: notes
           
       - name: Setup Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.8'
 
