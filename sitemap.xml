@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/coding/creating-windows-with-rust/index.html</loc>
+         <lastmod>2023-03-03</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/dotfiles/how-i-setup-this-blog/index.html</loc>
          <lastmod>2023-03-03</lastmod>
          <changefreq>daily</changefreq>
