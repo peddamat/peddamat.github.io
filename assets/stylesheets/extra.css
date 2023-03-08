@@ -23,42 +23,49 @@ code {
   right: 0;
 }
 
-.container-info h2 {
-  margin-top: 1em;
-}
 .container-info {
   display: inline-block;
   position: relative;
   width: 100%;
-  text-align: center;
+  padding: 25px;
+  text-align: center; }
+  @media (max-width: 500px) {
+    .container-info{
+      padding: 0px;
+    }
+    .md-typeset h2 {
+      margin:0px;
+    }
+  }
+  @media (min-width: 1000px) {
+    .container-info {
+      float: left;
+      /*position: fixed;*/
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 50%; } }
 
-}
-@media (min-width: 1000px) {
-  .container-info {
-    float: left;
-    /*position: fixed;*/
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 50%; }
- }
-
-.container-main h2 {
-  margin-top: 1em;
-}
 .container-main {
   display: inline-block;
   position: relative;
   width: 100%;
-  min-height: 490px;
   padding: 25px;
-}
-@media (min-width: 1000px) {
-  .container-main {
-    float: right;
-    /*position: fixed;*/
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 50%; }
-}
+  min-height: 490px; }
+  @media (max-width: 500px) {
+    .container-main {
+      padding: 0px;
+    }
+    .md-typeset h2 {
+      margin:0px;
+    }
+  }
+  @media (min-width: 1000px) {
+    .container-main {
+      float: right;
+      /*position: fixed;*/
+      right: 0;
+      top: 0;
+      height: 100%;
+      width: 50%; }
+    }
