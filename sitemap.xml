@@ -21,6 +21,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/coding/injecting-dlls-with-rust/index.html</loc>
+         <lastmod>2023-03-08</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/dotfiles/how-i-setup-this-blog/index.html</loc>
          <lastmod>2023-03-08</lastmod>
          <changefreq>daily</changefreq>
