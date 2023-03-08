@@ -28,7 +28,7 @@ code {
   position: relative;
   width: 100%;
   text-align: center; }
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
     .container-info {
       float: left;
       /*position: fixed;*/
@@ -42,7 +42,7 @@ code {
   position: relative;
   width: 100%;
   min-height: 490px; }
-  @media (min-width: 768px) {
+  @media (min-width: 1000px) {
     .container-main {
       float: right;
       /*position: fixed;*/
