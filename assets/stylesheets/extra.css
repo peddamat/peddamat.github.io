@@ -69,3 +69,7 @@ code {
       height: 100%;
       width: 50%; }
     }
+
+.highlight .hll {
+  background-color: #007cff29;
+}
