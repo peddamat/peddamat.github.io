@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://samrambles.com/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/tags/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/coding/creating-a-dll-with-rust/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/coding/creating-a-window-with-rust/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/coding/injecting-dlls-with-rust/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/coding/production-ready-dll-injection/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/dotfiles/how-i-setup-this-blog/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/tags/index.html</loc>
-         <lastmod>2023-03-11</lastmod>
+         <lastmod>2023-03-13</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
