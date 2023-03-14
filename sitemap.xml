@@ -51,6 +51,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/fyi/modern-debugging-tools-for-windows/index.html</loc>
+         <lastmod>2023-03-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/fyi/using-chatgpt-to-generate-regexs/index.html</loc>
+         <lastmod>2023-03-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/fyi/index.md/index.html</loc>
+         <lastmod>2023-03-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/lab-notes/index.html</loc>
          <lastmod>2023-03-14</lastmod>
          <changefreq>daily</changefreq>
