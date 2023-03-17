@@ -66,17 +66,37 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/notes/development-kits/itead-maple/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/esp32-boards/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/notes/development-kits/stm32-black-pill/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/esp8266/esp-01/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/notes/development-kits/stm32-blue-pill/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/esp8266/wemos-mini/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/development-kits/esp8266/index.md/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/development-kits/stm/itead-maple/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/development-kits/stm/stm32-black-pill/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/development-kits/stm/stm32-super-blue-pill/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
