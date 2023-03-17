@@ -81,6 +81,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/notes/development-kits/raspberry-pi/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/notes/development-kits/esp8266/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
