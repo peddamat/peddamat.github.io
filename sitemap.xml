@@ -116,6 +116,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/projects/serialmoose-serial-port-sniffer/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/projects/hunter-hacking/atwinc1500-firmware-extraction-and-analysis/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
