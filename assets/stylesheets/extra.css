@@ -28,7 +28,24 @@ p.blog-post-description {
   padding: 25px;
   min-height: 490px;
 }
-  @media (max-width: 500px) {
+
+.md-typeset .blog-post-title {
+  font-weight: 500;
+}
+
+.md-typeset h1 {
+  font-weight: 600;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
     .container-info{
       padding: 0px;
     }
