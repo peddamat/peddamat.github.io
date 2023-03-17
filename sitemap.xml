@@ -11,92 +11,87 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/index.html</loc>
+         <loc>https://samrambles.com/guides/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/creating-a-dll-with-rust/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/debugging-a-mkdocs-plugin/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/creating-a-window-with-rust/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/how-i-setup-this-blog/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/debugging-a-mkdocs-plugin/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/how-to-quickly-setup-a-wireless-mitm-proxy/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/injecting-dlls-with-rust/index.html</loc>
+         <loc>https://samrambles.com/guides/window-hacking-with-rust/creating-a-dll-with-rust/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/coding/production-ready-dll-injection/index.html</loc>
+         <loc>https://samrambles.com/guides/window-hacking-with-rust/creating-a-window-with-rust/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/index.html</loc>
+         <loc>https://samrambles.com/guides/window-hacking-with-rust/injecting-dlls-with-rust/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/how-i-setup-this-blog/index.html</loc>
+         <loc>https://samrambles.com/guides/window-hacking-with-rust/production-ready-dll-injection/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/how-to-quickly-setup-a-wireless-mitm-proxy/index.html</loc>
+         <loc>https://samrambles.com/notes/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/embedded/itead-maple/index.html</loc>
+         <loc>https://samrambles.com/notes/modern-debugging-tools-for-windows/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/embedded/stm32-black-pill/index.html</loc>
+         <loc>https://samrambles.com/notes/using-chatgpt-to-generate-regexs/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/embedded/stm32-blue-pill/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/itead-maple/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/fyi/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/stm32-black-pill/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/fyi/modern-debugging-tools-for-windows/index.html</loc>
+         <loc>https://samrambles.com/notes/development-kits/stm32-blue-pill/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/fyi/using-chatgpt-to-generate-regexs/index.html</loc>
+         <loc>https://samrambles.com/projects/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/lab-notes/index.html</loc>
+         <loc>https://samrambles.com/projects/hunter-hacking/atwinc1500-firmware-extraction-and-analysis/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/lab-notes/hunter-hacking/atwinc1500-firmware-extraction-and-analysis/index.html</loc>
-         <lastmod>2023-03-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/lab-notes/hunter-hacking/hunter-pro-hc-teardown/index.html</loc>
+         <loc>https://samrambles.com/projects/hunter-hacking/hunter-pro-hc-teardown/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
