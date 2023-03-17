@@ -6,6 +6,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/stm32-black-pill/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/tags/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
@@ -56,7 +61,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/dotfiles/embedded/stm32/itead-maple/index.html</loc>
+         <loc>https://samrambles.com/dotfiles/embedded/itead-maple/index.html</loc>
+         <lastmod>2023-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/dotfiles/embedded/stm32-blue-pill/index.html</loc>
          <lastmod>2023-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
