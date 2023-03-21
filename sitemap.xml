@@ -151,12 +151,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/projects/hunter-hacking/atwinc1500-firmware-extraction-and-analysis/index.html</loc>
-         <lastmod>2023-03-21</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/projects/hunter-hacking/hunter-pro-hc-teardown/index.html</loc>
+         <loc>https://samrambles.com/projects/hunter-hacking/learning-how-to-mitm-an-atwinc1500/index.html</loc>
          <lastmod>2023-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -166,7 +161,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/projects/hunter-hacking/mitm-an-atwinc1500/index.html</loc>
+         <loc>https://samrambles.com/projects/hunter-hacking/taking-apart-a-hunter-pro-hc-controller/index.html</loc>
+         <lastmod>2023-03-21</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/projects/hunter-hacking/understanding-the-atwinc1500-module/index.html</loc>
          <lastmod>2023-03-21</lastmod>
          <changefreq>daily</changefreq>
     </url>
