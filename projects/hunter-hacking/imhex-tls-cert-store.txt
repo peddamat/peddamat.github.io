@@ -1,0 +1,94 @@
+#define uint8 u8
+#define uint32 u32
+#define uint16 u16
+
+#define ECC_POINT_MAX 72
+
+#define TLS_FILE_NAME_MAX 48
+#define TLS_SRV_SEC_MAX_FILES 8
+#define TLS_SRV_SEC_START_PATTERN_LEN 8
+
+struct tstrSystemTime {
+	uint16	u16Year;
+	uint8	u8Month;
+	uint8	u8Day;
+	uint8	u8Hour;
+	uint8	u8Minute;
+	uint8	u8Second;
+	uint8	__PAD8__;
+};
+
+enum tenuCertPubKeyType : u16 {
+	X509_CERT_PUBKEY_RSA	= 1,
+	X509_CERT_PUBKEY_ECDSA	= 2
+};
+
+
+struct tstrECDSAPubKey{
+	uint16	u16CurveID;
+	uint16	u16EcPointSz;
+	uint8	au8EcPoint[ECC_POINT_MAX * 2];
+};
+
+struct tstrRSAPubKey {
+	uint16	u16NSize;
+	uint16	u16ESize;
+	uint8	*pu8N : u32;
+	uint8	*pu8E : u32;
+};
+
+
+union PubKey {
+	tstrRSAPubKey	strRsaPub;
+	tstrECDSAPubKey	strEcdsaPub;
+};
+
+struct tstrX509CertPublicKey{
+	tenuCertPubKeyType	enuCertKeyType;
+	PubKey pubKey;
+};
+
+struct tstrX509Name {
+	char	acCmnName[64];
+	uint8	au8NameSHA1[20];
+};
+
+
+struct txtrX509CertInfo{
+	uint8					u8SerialNumberLength;
+	uint8					au8SerialNo[64];
+	tstrX509Name			strIssuer;
+	tstrSystemTime			strExpiryDate;
+	tstrSystemTime			strStartDate;
+	tstrX509Name			strSubject;
+	tstrX509CertPublicKey	strPubKey;
+	uint16					*pvPrivate : u32;
+};
+
+struct tstrBuff {
+	uint16	u16BufferSize;
+	uint8	*pu8Data : u32;
+};
+
+struct tstrX509Entry {
+	txtrX509CertInfo	strX509;
+	tstrBuff			strX509ASN1Buff;
+	char				acFileName[60];
+	//tstrX509Entry	*pstrNext : u32;
+};
+
+struct tstrTlsSrvSecFileEntry{
+	char    acFileName[TLS_FILE_NAME_MAX];
+	uint32  u32FileSize;
+	uint32  u32FileAddr;
+};
+
+struct tstrTlsSrvSecHdr{
+	uint8                   au8SecStartPattern[TLS_SRV_SEC_START_PATTERN_LEN];
+	uint32                  u32nEntries;
+	uint32                  u32NextWriteAddr;
+	tstrTlsSrvSecFileEntry  astrEntries[u32nEntries];
+	uint32                  u32CRC;
+};
+
+tstrTlsSrvSecHdr dump @ 0;

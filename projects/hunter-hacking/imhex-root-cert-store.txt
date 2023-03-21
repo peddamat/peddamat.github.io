@@ -1,0 +1,80 @@
+#define uint8 u8
+#define uint32 u32
+#define uint16 u16
+
+#define ROOT_CERT_FLASH_START_PATTERN_LENGTH 16
+#define CRYPTO_SHA1_DIGEST_SIZE 20
+			
+
+fn WORD_ALIGN(u16 val) {
+	return (((val) & 0x03) ? ((val) + 4 - ((val) & 0x03)) : (val));
+};
+
+struct tstrSystemTime {
+	uint16	u16Year;
+	uint8	u8Month;
+	uint8	u8Day;
+	uint8	u8Hour;
+	uint8	u8Minute;
+	uint8	u8Second;
+	uint8	__PAD8__;
+};
+
+// Cert Flash Header
+struct tstrRootCertFlashHeader {
+	uint8 au8StartPattern[ROOT_CERT_FLASH_START_PATTERN_LENGTH];
+	uint32 u32nCerts;
+};
+
+enum tenuRootCertPubKeyType : u32 {
+	ROOT_CERT_PUBKEY_RSA = 1,
+	ROOT_CERT_PUBKEY_ECDSA = 2
+};
+
+struct tstrRootCertRsaKeyInfo {
+	uint16 u16NSz;
+	uint16 u16ESz;
+};
+
+struct tstrRootCertEcdsaKeyInfo {
+	uint16 u16CurveID;
+	uint16 u16KeySz;
+};
+
+union RootCertKeyInfo {
+	tstrRootCertRsaKeyInfo strRsaKeyInfo;
+	tstrRootCertEcdsaKeyInfo strEcsdaKeyInfo;
+};
+
+struct tstrRootCertPubKeyInfo {
+	uint32 u32PubKeyType;
+	RootCertKeyInfo KeyInfo;
+};
+
+// Cert Entry Header
+struct tstrRootCertEntryHeader {
+	uint8 au8SHA1NameHash[CRYPTO_SHA1_DIGEST_SIZE];
+	tstrSystemTime strStartDate;
+	tstrSystemTime strExpDate;
+	tstrRootCertPubKeyInfo strPubKey;
+};
+
+struct certEntry {
+	tstrRootCertEntryHeader certHeader;
+	if (certHeader.strPubKey.u32PubKeyType == 1) {
+		u8 N[WORD_ALIGN(certHeader.strPubKey.KeyInfo.strRsaKeyInfo.u16NSz)];
+		u8 E[WORD_ALIGN(certHeader.strPubKey.KeyInfo.strRsaKeyInfo.u16ESz)];
+	}
+	if (certHeader.strPubKey.u32PubKeyType == 2) {
+		u8 data[WORD_ALIGN(certHeader.strPubKey.KeyInfo.strEcsdaKeyInfo.u16KeySz)*2];
+	}    
+};
+
+struct D {
+
+	tstrRootCertFlashHeader header;
+	certEntry cert[header.u32nCerts];
+
+};
+
+D dump @ 0;
