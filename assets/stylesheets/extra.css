@@ -54,6 +54,12 @@ p.blog-post-description {
   max-height: 500px;
 }
 
+.tall_image {
+  overflow-y: scroll;
+  max-height: 500px;
+
+}
+
 @media (max-width: 500px) {
     .container-info{
       padding: 0px;
