@@ -45,8 +45,7 @@ p.blog-post-description {
   font-weight: 600;
 }
 
-.md-typeset pre,
-.md-typeset .tabbed-content .tabbed-block {
+.md-typeset pre > code {
   overflow-x: scroll;
   max-height: 500px;
 }
