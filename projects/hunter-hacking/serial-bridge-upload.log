@@ -1,0 +1,146 @@
+ *  Executing task: C:\Users\me\.platformio\penv\Scripts\platformio.exe run --target upload --environment adafruit_feather_m0 
+
+Processing adafruit_feather_m0 (platform: atmelsam; board: adafruit_feather_m0; framework: arduino)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/atmelsam/adafruit_feather_m0.html
+PLATFORM: Atmel SAM (8.1.0) > Adafruit Feather M0
+HARDWARE: SAMD21G18A 48MHz, 32KB RAM, 256KB Flash
+DEBUG: Current (jlink) External (atmel-ice, blackmagic, jlink)
+PACKAGES:
+ - framework-arduino-samd-adafruit @ 1.7.10
+ - framework-cmsis @ 2.50400.181126 (5.4.0)
+ - framework-cmsis-atmel @ 1.2.2
+ - tool-bossac @ 1.10700.190624 (1.7.0)
+ - toolchain-gccarmnoneeabi @ 1.90301.200702 (9.3.1)
+Converting FirmwareUpdaterNew.ino
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ chain, Compatibility ~ soft
+Found 13 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- WiFi101 @ 0.16.1
+|   |-- SPI @ 1.0
+|   |   |-- Adafruit Zero DMA Library @ 1.1.1
+|-- SPI @ 1.0
+|   |-- Adafruit Zero DMA Library @ 1.1.1    
+|-- Adafruit Zero DMA Library @ 1.1.1        
+Building in debug mode
+Compiling .pio\build\adafruit_feather_m0\src\FirmwareUpdaterNew.ino.cpp.o
+Compiling .pio\build\adafruit_feather_m0\libc75\Adafruit Zero DMA Library\Adafruit_ZeroDMA.cpp.o
+Compiling .pio\build\adafruit_feather_m0\libb32\SPI\SPI.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFi.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFiClient.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFiMDNSResponder.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFiSSLClient.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFiServer.cpp.o
+.pio\libdeps\adafruit_feather_m0\WiFi101\src\WiFi.cpp: In member function 'char* WiFiClass::firmwareVersion()':
+.pio\libdeps\adafruit_feather_m0\WiFi101\src\WiFi.cpp:356:28: warning: '%d' directive writing between 1 and 3 bytes into a region of size between 1 and 5 [-Wformat-overflow=]
+  356 |   sprintf(_version, "%d.%d.%d", rev.u8FirmwareMajor, rev.u8FirmwareMinor, rev.u8FirmwarePatch);
+      |                            ^~
+.pio\libdeps\adafruit_feather_m0\WiFi101\src\WiFi.cpp:356:21: note: directive argument in the range [0, 255]
+  356 |   sprintf(_version, "%d.%d.%d", rev.u8FirmwareMajor, rev.u8FirmwareMinor, rev.u8FirmwarePatch);
+      |                     ^~~~~~~~~~
+.pio\libdeps\adafruit_feather_m0\WiFi101\src\WiFi.cpp:356:10: note: 'sprintf' output between 6 and 12 bytes into a destination of size 9
+  356 |   sprintf(_version, "%d.%d.%d", rev.u8FirmwareMajor, rev.u8FirmwareMinor, rev.u8FirmwarePatch);
+      |   ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\WiFiUdp.cpp.o
+Archiving .pio\build\adafruit_feather_m0\libb32\libSPI.a
+Archiving .pio\build\adafruit_feather_m0\libc75\libAdafruit Zero DMA Library.a
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\bsp\source\nm_bsp_arduino.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\bsp\source\nm_bsp_arduino_avr.c.o
+Indexing .pio\build\adafruit_feather_m0\libb32\libSPI.a
+Indexing .pio\build\adafruit_feather_m0\libc75\libAdafruit Zero DMA Library.a
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\bus_wrapper\source\nm_bus_wrapper_samd21.cpp.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\common\source\nm_common.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_ate_mode.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_crypto.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_hif.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_ota.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_periph.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_ssl.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\m2m_wifi.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmasic.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmbus.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmdrv.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmi2c.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmspi.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\driver\source\nmuart.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\socket\source\socket.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\spi_flash\source\spi_flash.c.o
+Compiling .pio\build\adafruit_feather_m0\lib0d7\WiFi101\utility\WiFiSocket.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduinoVariant\variant.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\Reset.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\SERCOM.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\Stream.cpp.o
+Archiving .pio\build\adafruit_feather_m0\libFrameworkArduinoVariant.a
+Indexing .pio\build\adafruit_feather_m0\libFrameworkArduinoVariant.a
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\USB\CDC.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\USB\PluggableUSB.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\USB\SAMD21_USBDevice.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\USB\USBCore.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\USB\samd21_host.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\Uart.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\WInterrupts.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\abi.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\avr\dtostrf.c.o
+Archiving .pio\build\adafruit_feather_m0\lib0d7\libWiFi101.a
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\cortex_handlers.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\delay.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\hooks.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\itoa.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\main.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\math_helper.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\new.cpp.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\pulse.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\pulse_asm.S.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\startup.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\wiring.c.o
+Indexing .pio\build\adafruit_feather_m0\lib0d7\libWiFi101.a
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\wiring_analog.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\wiring_digital.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\wiring_private.c.o
+Compiling .pio\build\adafruit_feather_m0\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\adafruit_feather_m0\libFrameworkArduino.a
+Indexing .pio\build\adafruit_feather_m0\libFrameworkArduino.a
+Linking .pio\build\adafruit_feather_m0\firmware.elf
+Checking size .pio\build\adafruit_feather_m0\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [==        ]  21.8% (used 7128 bytes from 32768 bytes)
+Flash: [=         ]   9.6% (used 25100 bytes from 262144 bytes)
+Building .pio\build\adafruit_feather_m0\firmware.bin
+Configuring upload protocol...
+AVAILABLE: atmel-ice, blackmagic, jlink, sam-ba
+CURRENT: upload_protocol = sam-ba
+Looking for upload port...
+Auto-detected: COM9
+Forcing reset using 1200bps open/close on port COM9
+Waiting for the new upload port...
+Uploading .pio\build\adafruit_feather_m0\firmware.bin
+Atmel SMART device 0x10010005 found
+Erase flash
+done in 0.824 seconds
+
+Write 25192 bytes to flash (394 pages)
+
+[====                          ] 16% (64/394 pages)
+[=========                     ] 32% (128/394 pages)
+[==============                ] 48% (192/394 pages)
+[===================           ] 64% (256/394 pages)
+[========================      ] 81% (320/394 pages)
+[============================= ] 97% (384/394 pages)
+[==============================] 100% (394/394 pages)
+done in 0.197 seconds
+
+Verify 25192 bytes of flash with checksum.
+Verify successful
+done in 0.018 seconds
+CPU reset.
+=============================================================================== [SUCCESS] Took 33.98 seconds ===============================================================================
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+
