@@ -45,6 +45,11 @@ p.blog-post-description {
   font-weight: 600;
 }
 
+.md-typeset .tabbed-content {
+  overflow-x: scroll;
+  max-height: 500px;
+}
+
 @media (max-width: 500px) {
     .container-info{
       padding: 0px;
