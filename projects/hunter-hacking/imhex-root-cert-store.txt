@@ -70,11 +70,11 @@ struct certEntry {
 	}    
 };
 
-struct D {
+struct header {
 
 	tstrRootCertFlashHeader header;
 	certEntry cert[header.u32nCerts];
 
 };
 
-D dump @ 0;
+header root_cert_store @ 0x4000;

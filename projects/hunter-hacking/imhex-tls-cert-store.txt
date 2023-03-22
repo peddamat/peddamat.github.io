@@ -91,4 +91,4 @@ struct tstrTlsSrvSecHdr{
 	uint32                  u32CRC;
 };
 
-tstrTlsSrvSecHdr dump @ 0;
+tstrTlsSrvSecHdr tls_cert_store @ 0x5000;
