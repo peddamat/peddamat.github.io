@@ -71,17 +71,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/notes/git-cheatsheet/index.html</loc>
-         <lastmod>2023-03-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://samrambles.com/notes/modern-debugging-tools-for-windows/index.html</loc>
          <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/notes/tls-cheatsheet/index.html</loc>
+         <loc>https://samrambles.com/notes/cheatsheets/git-cheatsheet/index.html</loc>
+         <lastmod>2023-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/cheatsheets/rsync-cheatsheet/index.html</loc>
+         <lastmod>2023-03-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/cheatsheets/tls-cheatsheet/index.html</loc>
          <lastmod>2023-03-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
