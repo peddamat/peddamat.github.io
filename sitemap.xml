@@ -16,12 +16,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/how-to-size-a-solar-battery-install/index.html</loc>
-         <lastmod>2023-03-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/guides/dotfiles/debugging-a-mkdocs-plugin/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/extending-mkdocs-with-plugins-and-hooks/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -42,6 +37,11 @@
     </url>
     <url>
          <loc>https://samrambles.com/guides/fancy-zones/fancy-zones-internals/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/guides/home-diy/how-to-size-a-solar-battery-install/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
