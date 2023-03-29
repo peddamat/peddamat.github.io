@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/guides/learning-networking-with-mininet/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/guides/dotfiles/extending-mkdocs-with-plugins-and-hooks/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
