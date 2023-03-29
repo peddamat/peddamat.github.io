@@ -81,12 +81,22 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/notes/cheatsheets/docker-cheatsheet/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/notes/cheatsheets/git-cheatsheet/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://samrambles.com/notes/cheatsheets/rsync-cheatsheet/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/cheatsheets/ruby-cheatsheet/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -156,12 +166,27 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/projects/introducing-sensie/index.html</loc>
+         <loc>https://samrambles.com/projects/serialmoose-serial-port-sniffer/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/projects/serialmoose-serial-port-sniffer/index.html</loc>
+         <loc>https://samrambles.com/projects/archive/introducing-recon/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/projects/archive/introducing-sensie/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/projects/calibresync/calibresync-development-notes/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/projects/cancer-research/target-aml-data-analysis/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
