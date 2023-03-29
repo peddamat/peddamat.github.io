@@ -21,12 +21,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/dotfiles/extending-mkdocs-with-plugins-and-hooks/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/how-i-setup-this-blog/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/dotfiles/how-i-setup-this-blog/index.html</loc>
+         <loc>https://samrambles.com/guides/dotfiles/how-i-write-mkdocs-plugins/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
