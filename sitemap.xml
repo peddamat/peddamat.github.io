@@ -151,6 +151,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/notes/templates/blog-entry/index.html</loc>
+         <lastmod>2023-03-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/projects/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
@@ -202,11 +207,6 @@
     </url>
     <url>
          <loc>https://samrambles.com/projects/hunter-hacking/reverse-engineering-the-hunter-pro-hc-controller/index.html</loc>
-         <lastmod>2023-03-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/assets/templates/blog-entry/index.html</loc>
          <lastmod>2023-03-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
