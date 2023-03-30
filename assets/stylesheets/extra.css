@@ -39,6 +39,7 @@ p.blog-post-description {
 
 .md-typeset h1 {
   font-weight: 600;
+  margin-bottom: 0.7em;
 }
 
 .md-typeset h2 {
