@@ -56,6 +56,21 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://samrambles.com/guides/home-assistant/my-smart-home-devices/index.html</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/guides/home-assistant/samsung-refrigerator-integration/index.html</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/guides/home-assistant/using-pyscript-in-jupyterlab/index.html</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://samrambles.com/guides/home-diy/how-to-size-a-solar-battery-install/index.html</loc>
          <lastmod>2023-03-30</lastmod>
          <changefreq>daily</changefreq>
@@ -217,16 +232,6 @@
     </url>
     <url>
          <loc>https://samrambles.com/projects/cancer-research/target-aml-data-analysis/index.html</loc>
-         <lastmod>2023-03-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/projects/home-assistant/my-smart-home-devices/index.html</loc>
-         <lastmod>2023-03-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://samrambles.com/projects/home-assistant/samsung-refrigerator-integration/index.html</loc>
          <lastmod>2023-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
