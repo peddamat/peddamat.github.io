@@ -46,12 +46,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/fancy-zones/fancy-zones-development-environment-setup/index.html</loc>
+         <loc>https://samrambles.com/guides/fancyzones/how-fancyzones-works/index.html</loc>
          <lastmod>2023-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/fancy-zones/fancy-zones-internals/index.html</loc>
+         <loc>https://samrambles.com/guides/fancyzones/how-to-hack-fancyzones/index.html</loc>
          <lastmod>2023-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -107,6 +107,11 @@
     </url>
     <url>
          <loc>https://samrambles.com/notes/cheatsheets/git-cheatsheet/index.html</loc>
+         <lastmod>2023-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://samrambles.com/notes/cheatsheets/python-cheatsheet/index.html</loc>
          <lastmod>2023-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
