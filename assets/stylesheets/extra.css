@@ -2,7 +2,7 @@ code {
     white-space: pre-wrap;
 }
 
-.blogging-tags-grid {
+.md-typeset .blogging-tags-grid {
   display: none;
 }
 
