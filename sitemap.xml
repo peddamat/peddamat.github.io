@@ -16,11 +16,6 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://samrambles.com/guides/learning-networking-with-mininet/index.html</loc>
-         <lastmod>2023-05-05</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://samrambles.com/guides/writing-home-assistant-integrations/index.html</loc>
          <lastmod>2023-05-05</lastmod>
          <changefreq>daily</changefreq>
