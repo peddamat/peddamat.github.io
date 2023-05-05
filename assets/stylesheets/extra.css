@@ -2,6 +2,10 @@ code {
     white-space: pre-wrap;
 }
 
+.blogging-tags-grid {
+  display: none;
+}
+
 .blog-post-extra {
   font-size: 0.75rem;
 }
